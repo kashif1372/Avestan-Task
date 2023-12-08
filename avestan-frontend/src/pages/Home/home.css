@@ -1,0 +1,27 @@
+.home_main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img01.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  
+  }
+
+  .home_form{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .user_table{
+    width: 80vw;
+    height: 70vh;
+    scroll-behavior: auto;
+    overflow: scroll;
+    
+  }

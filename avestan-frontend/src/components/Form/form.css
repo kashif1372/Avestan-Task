@@ -1,0 +1,85 @@
+
+
+form {
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px 30px;
+    background: #f4f7f8;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  
+  input{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    font-size: 16px;
+    height: auto;
+    outline: 0;
+    padding: 10px;
+    width: 380px;
+    background-color: #e8eeef;
+    color: #000000;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 15px;
+  }
+
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 12px 20px 10px;
+    color: #FFF;
+    background-color: #3aa6c1;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #3aa6c1;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+    transition: 0.3s ;
+  }
+
+  button:active{
+    scale: 0.9;
+  }
+
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .btn_cl{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media (max-width:768px) {
+  
+    form {
+      width: 300px;
+    }
+
+    input{
+        width: 280px;
+    }
+  
+  }
